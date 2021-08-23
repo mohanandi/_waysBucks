@@ -1,14 +1,11 @@
-import { Container, Row, Col } from 'react-bootstrap';
+// import { Container, Row, Col } from 'react-bootstrap';
+import NavbarComp from './components/NavbarComp';
 
 const App = () => {
   return (
-    <Container>
-      <Row>
-        <Col md={12} centered>
-          <h1>hello world</h1>
-        </Col>
-      </Row>
-    </Container>
+    <div>
+      <NavbarComp />
+    </div>
   );
 }
 
